@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>İlk Mobil Uygulama</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+   <div data-role="page" id="page">
+       <div data-role="header" id="header">
+            <h1>Sözlük</h1>
+	   </div><!-- /header -->
+
+	   <div role="main" class="ui-content">
+            <ul data-role="listview" data-filter="true" data-filter-placeholder="Bişeyler yaz..." data-inset="true">
+                <li><a href="sayfalar/ip.html" data-rel="dialog" data-transition="pop">IP</a></li>
+                <li><a href="sayfalar/mac.html" data-rel="dialog" data-transition="pop">MAC</a></li>
+                <li><a href="sayfalar/network.html" data-rel="dialog" data-transition="pop">Network</a></li>
+            </ul>
+	   </div><!-- /content -->
+
+	    <div id="footer" data-role="footer" data-position="fixed">
+		    <h4>Tasarım-Kodlama Yılmaz ARSLANTÜRK</h4>
+	    </div><!-- /footer -->
+   </div>
+</body>
+</html>
